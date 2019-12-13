@@ -241,8 +241,12 @@ public class IlpOverHttpLink extends AbstractLink<IlpOverHttpLinkSettings> imple
     }
   }
 
+<<<<<<< HEAD
   private static final String BEARER_WITH_SPACE = BEARER + " ";
 
+=======
+  private final String BEARER_WITH_SPACE = BEARER + " ";
+>>>>>>> ee55a15... added space
   /**
    * Construct headers for an ILP-over-HTTP request.
    *
